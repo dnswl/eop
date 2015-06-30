@@ -9,7 +9,7 @@ To facilitate automatic processing, the IPs are hosted as plain text files in a 
 
 ## Contribution
 
-* Changes of the IPs are documented at https://technet.microsoft.com/en-us/library/dn163581.aspx
+* Changes are documented at https://technet.microsoft.com/en-us/library/dn163581.aspx
 * Pull requests must reflect only changes documented there, any other changes are not permitted
 
 ## See also
