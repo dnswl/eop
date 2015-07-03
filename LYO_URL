@@ -1,0 +1,5 @@
+*.Lync.com
+evsecure-ocsp.verisign.com
+evsecure-aia.verisign.com
+evsecure-crl.verisign.com
+sa.symcb.com

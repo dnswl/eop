@@ -3,3 +3,7 @@
 xmlsh -c "xpath '/products/product[@name=\"o365\"]/addresslist[@type=\"IPv6\"]/address/text()'" <O365IPAddresses.xml >o365_IPv6
 xmlsh -c "xpath '/products/product[@name=\"o365\"]/addresslist[@type=\"IPv4\"]/address/text()'" <O365IPAddresses.xml >o365_IPv4
 xmlsh -c "xpath '/products/product[@name=\"o365\"]/addresslist[@type=\"URL\"]/address/text()'"  <O365IPAddresses.xml >o365_URL
+
+xmlsh -c "xpath '/products/product[@name=\"LYO\"]/addresslist[@type=\"IPv6\"]/address/text()'"  <O365IPAddresses.xml >LYO_IPv6
+xmlsh -c "xpath '/products/product[@name=\"LYO\"]/addresslist[@type=\"IPv4\"]/address/text()'"  <O365IPAddresses.xml >LYO_IPv4
+xmlsh -c "xpath '/products/product[@name=\"LYO\"]/addresslist[@type=\"URL\"]/address/text()'"   <O365IPAddresses.xml >LYO_URL
