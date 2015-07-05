@@ -15,3 +15,7 @@ xmlsh -c "xpath '/products/product[@name=\"ProPlus\"]/addresslist[@type=\"URL\"]
 xmlsh -c "xpath '/products/product[@name=\"SPO\"]/addresslist[@type=\"IPv6\"]/address/text()'"      <O365IPAddresses.xml >SPO_IPv6
 xmlsh -c "xpath '/products/product[@name=\"SPO\"]/addresslist[@type=\"IPv4\"]/address/text()'"      <O365IPAddresses.xml >SPO_IPv4
 xmlsh -c "xpath '/products/product[@name=\"SPO\"]/addresslist[@type=\"URL\"]/address/text()'"       <O365IPAddresses.xml >SPO_URL
+
+xmlsh -c "xpath '/products/product[@name=\"WAC\"]/addresslist[@type=\"IPv6\"]/address/text()'"      <O365IPAddresses.xml >WAC_IPv6
+xmlsh -c "xpath '/products/product[@name=\"WAC\"]/addresslist[@type=\"IPv4\"]/address/text()'"      <O365IPAddresses.xml >WAC_IPv4
+xmlsh -c "xpath '/products/product[@name=\"WAC\"]/addresslist[@type=\"URL\"]/address/text()'"       <O365IPAddresses.xml >WAC_URL
