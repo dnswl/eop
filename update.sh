@@ -19,3 +19,7 @@ xmlsh -c "xpath '/products/product[@name=\"SPO\"]/addresslist[@type=\"URL\"]/add
 xmlsh -c "xpath '/products/product[@name=\"WAC\"]/addresslist[@type=\"IPv6\"]/address/text()'"      <O365IPAddresses.xml >WAC_IPv6
 xmlsh -c "xpath '/products/product[@name=\"WAC\"]/addresslist[@type=\"IPv4\"]/address/text()'"      <O365IPAddresses.xml >WAC_IPv4
 xmlsh -c "xpath '/products/product[@name=\"WAC\"]/addresslist[@type=\"URL\"]/address/text()'"       <O365IPAddresses.xml >WAC_URL
+
+xmlsh -c "xpath '/products/product[@name=\"EXO\"]/addresslist[@type=\"IPv6\"]/address/text()'"      <O365IPAddresses.xml >EXO_IPv6
+xmlsh -c "xpath '/products/product[@name=\"EXO\"]/addresslist[@type=\"IPv4\"]/address/text()'"      <O365IPAddresses.xml >EXO_IPv4
+xmlsh -c "xpath '/products/product[@name=\"EXO\"]/addresslist[@type=\"URL\"]/address/text()'"       <O365IPAddresses.xml >EXO_URL
